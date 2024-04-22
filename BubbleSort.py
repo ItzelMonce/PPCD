@@ -1,6 +1,5 @@
-# esto es un comentario de prueba
 
-def bsort(arreglo):
+def bsort(arreglo): 
     n=len(arreglo)
 
 #print(f'Tamaño de la lista: {n}')
