@@ -1,4 +1,4 @@
-
+# esto es un comentario del profe
 def bsort(arreglo): 
     n=len(arreglo)
 
