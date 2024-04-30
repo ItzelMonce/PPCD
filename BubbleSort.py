@@ -12,7 +12,9 @@ def bsort(arreglo):
      
     return arreglo   
 
-listaDesordenada =[8,7,6,5,4,3,2,1]
+#listaDesordenada =[8,7,6,5,4,3,2,1]
+
+listaDesordenada = [x for x in range(100,0,-1)]
 
 print(listaDesordenada)
 
