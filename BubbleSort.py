@@ -3,9 +3,9 @@ def bsort(arreglo):
     n=len(arreglo)
 
 #print(f'Tamaño de la lista: {n}')
-    for i in range(0,n-2):
+    for i in range(0,n-1):
         for j in range(0, n-1):
-           if  arreglo[j]>arreglo[j+1]:
+           if  arreglo[j] > arreglo[j+1]:
             temp = arreglo[j]
             arreglo[j]= arreglo[j+1]
             arreglo[j+1]=temp

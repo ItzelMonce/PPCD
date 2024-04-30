@@ -8,7 +8,8 @@ def quicksort(arr):
         return quicksort(left) + [pivot] + quicksort(right)
  
 # Example usage
-arr = [1, 7, 4, 1, 10, 9, -2]
+#arr = [1, 7, 4, 1, 10, 9, -2]
+arr = [i for i in range(100,0,-1)]
 sorted_arr = quicksort(arr)
 print("Arreglo desordenado: ", arr)
 print("Arreglo ordenado de forma: ", sorted_arr)
