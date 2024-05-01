@@ -1,4 +1,4 @@
-#esta es una prueba 
+#prueba lograda 
 
 from random import sample
 
