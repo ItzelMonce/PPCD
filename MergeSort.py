@@ -1,10 +1,12 @@
+#esta es una prueba 
+
 from random import sample
 
 lista = list(range(100))  # tamaño de la lista
 arreglomerge = sample(lista, 100)
 
 def MergeSort(arreglo):
-    print("El arreglo a ordenar con merge es:", arreglo)
+    print("El arreglo a ordenar con merge es:", arreglo) 
 
     def merge(arreglo):
         
